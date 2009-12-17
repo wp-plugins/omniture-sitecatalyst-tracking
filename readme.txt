@@ -12,29 +12,19 @@ This plugin provides functionality to add basic Omniture SiteCatalyst tracking.
 This Omniture SiteCatalyst Tracking plugin provides tracking for basic WordPress navigation, including the following pages:
 
 * homepage
-
 * article
-
 * category page
-
 * tag page
-
 * archive
-
 * static page
 
 It sets the following SiteCatalyst variables:
 
 * s.pageName
-
 * s.channel
-
 * s.pageType
-
 * s.prop1
-
 * s.prop2
-
 * s.prop3
 
 It uses the wp_footer hook to be displayed in the footer of the HTML throughout your templates.
