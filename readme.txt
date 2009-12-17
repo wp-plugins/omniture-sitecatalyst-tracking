@@ -42,8 +42,10 @@ Future work of this plugin will involve using the wp_options table to store your
 1. Uploaded `omniture.php` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Update line #10 in the plugin to use your Omniture SiteCatalyst account id.
+
   &lt;!-- var s_account = 'omniture_account_id'; --&gt;
 4. Update line #12 in the plugin to link to the Omniture SiteCatalyst `s_code.js` file. A recommended location for this file would be in the parent directory that is separated from the WordPress code base.
+
   &lt;script type="text/javascrript" src="/path/to/s_code.js"&gt;&lt;/script&gt;
 
 == Frequently Asked Questions ==
